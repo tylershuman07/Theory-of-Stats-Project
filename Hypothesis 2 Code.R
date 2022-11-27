@@ -29,7 +29,7 @@ TRANS <- mean(Zillow$TRANS)
 SCHL <- mean(Zillow$SCHL)
 SQFT <- mean(Zillow$SQFT)
 
-#Calculate marginal effects at the means for each variable by evaluating each derivative
+#Calculate marginal effect
 margeffectWALK <- c()
 
 for (i in c(3,3.5,4,4.5,5)){
